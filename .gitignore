@@ -9,9 +9,8 @@ obj/
 *.pdb
 
 # Sensitive configuration files
-appsettings.json
-appsettings.*.json
-!appsettings.Development.json.example
+# appsettings.json - Now included for shared database access
+appsettings.Development.json
 
 # IDE
 .vs/
